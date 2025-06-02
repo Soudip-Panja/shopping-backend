@@ -1,7 +1,9 @@
+const path = require("path");
+
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
-require('dotenv').config();
+require("dotenv").config();
 
 const app = express();
 
@@ -20,7 +22,9 @@ const Product = require("./model/product.model");
 initializeDatabse();
 
 // Read product data from JSON
-const jsonData = fs.readFileSync("products.json", "utf-8");
+const jsonPath = path.resolve(__dirname, "products.json");
+
+const jsonData = fs.readFileSync(jsonPath, "utf-8");
 const productsData = JSON.parse(jsonData);
 
 // ✅ Seed data function (can be run once by uncommenting seedData())
@@ -50,7 +54,7 @@ function seedData() {
 async function readAllProducts() {
   try {
     const allProducts = await Product.find();
-    console.log(allProducts)
+    console.log(allProducts);
     return allProducts;
   } catch (error) {
     console.log("Error reading all products", error);
@@ -58,13 +62,12 @@ async function readAllProducts() {
   }
 }
 
-
 // ✅ GET all products
 app.get("/products", async (req, res) => {
   try {
     const products = await readAllProducts();
     if (products.length !== 0) {
-      res.status(200).json({products});
+      res.status(200).json({ products });
     } else {
       res.status(404).json({ error: "No products found." });
     }
@@ -80,12 +83,11 @@ app.get("/products/:id", async (req, res) => {
     if (!product) {
       return res.status(404).json({ error: "Product not found." });
     }
-    res.status(200).json({product});
+    res.status(200).json({ product });
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch the product." });
   }
 });
-
 
 // ✅ Start server
 const PORT = process.env.PORT || 3000;
