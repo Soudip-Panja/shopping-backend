@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
+require('dotenv').config();
 
 const app = express();
 
@@ -43,12 +44,13 @@ function seedData() {
     console.log("Error seeding data.", error);
   }
 }
-seedData();
+//seedData();
 
 // ✅ Fetch all products
 async function readAllProducts() {
   try {
     const allProducts = await Product.find();
+    console.log(allProducts)
     return allProducts;
   } catch (error) {
     console.log("Error reading all products", error);
@@ -56,12 +58,13 @@ async function readAllProducts() {
   }
 }
 
+
 // ✅ GET all products
 app.get("/products", async (req, res) => {
   try {
     const products = await readAllProducts();
     if (products.length !== 0) {
-      res.json(products);
+      res.status(200).json({products});
     } else {
       res.status(404).json({ error: "No products found." });
     }
@@ -77,7 +80,7 @@ app.get("/products/:id", async (req, res) => {
     if (!product) {
       return res.status(404).json({ error: "Product not found." });
     }
-    res.json(product);
+    res.status(200).json({product});
   } catch (error) {
     res.status(500).json({ error: "Failed to fetch the product." });
   }
