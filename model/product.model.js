@@ -12,13 +12,13 @@ const productSchema = new mongoose.Schema({
     category: [
         {
             type: String,
-            enum: ["Men", "Women", "Kids", "Electronics", "Home", "Accessories", "Footware", "Cosmetics"]
+            enum: ["Men", "Women", "Kids", "Electronics", "Home", "Accessories", "Footwear", "Cosmetics"]
         }
     ],
     collectionType: [
         {
             type: String,
-            enum: ["Summer Collection", "Accessories Collection", "Trending Shoe Collection", "Glow Up Collection"]
+            enum: ["Summer Collection", "Winter Collection", "Shoes Collection", "Accessories Collection", "Cosmetic Collection"]
         }
     ],
     price: {

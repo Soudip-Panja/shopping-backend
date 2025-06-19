@@ -1,602 +1,162 @@
 [
-    {
-      "name": "Hat 1",
-      "brand": "Nike",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 1552,
-      "size": [],
-      "stock": 109,
-      "rating": 2.5,
-      "tags": "hat,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Leggings 2",
-      "brand": "Zara",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 641,
-      "size": [{"clothSize": "L", "shoesSize": 10}],
-      "stock": 20,
-      "rating": 1.4,
-      "tags": "leggings,zara",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Dress 3",
-      "brand": "Gucci",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 4877,
-      "size": [{"clothSize": "XL", "shoesSize": 6}],
-      "stock": 170,
-      "rating": 4.9,
-      "tags": "dress,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Shirt 4",
-      "brand": "Ray-Ban",
-      "category": ["Boy"],
-      "collectionType": ["Summer Collection"],
-      "price": 1650,
-      "size": [{"clothSize": "S", "shoesSize": 6}],
-      "stock": 47,
-      "rating": 3.5,
-      "tags": "shirt,ray-ban",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Frock 5",
-      "brand": "Nike",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 3321,
-      "size": [{"clothSize": "XL", "shoesSize": 9}],
-      "stock": 121,
-      "rating": 3.0,
-      "tags": "frock,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Dress 6",
-      "brand": "H&M",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 4703,
-      "size": [{"clothSize": "L", "shoesSize": 9}],
-      "stock": 166,
-      "rating": 3.1,
-      "tags": "dress,h&m",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Top 7",
-      "brand": "Under Armour",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 3168,
-      "size": [{"clothSize": "XXL", "shoesSize": 8}],
-      "stock": 81,
-      "rating": 3.7,
-      "tags": "top,under armour",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Hat 8",
-      "brand": "Puma",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 2678,
-      "size": [],
-      "stock": 29,
-      "rating": 1.9,
-      "tags": "hat,puma",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Jeans 9",
-      "brand": "Nike",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 2371,
-      "size": [{"clothSize": "XXL", "shoesSize": 10}],
-      "stock": 85,
-      "rating": 2.7,
-      "tags": "jeans,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Kurti 10",
-      "brand": "Zara",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 602,
-      "size": [{"clothSize": "M", "shoesSize": 7}],
-      "stock": 26,
-      "rating": 1.8,
-      "tags": "kurti,zara",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Scarf 11",
-      "brand": "Armani",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 615,
-      "size": [],
-      "stock": 81,
-      "rating": 2.5,
-      "tags": "scarf,armani",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Shirt 12",
-      "brand": "Gucci",
-      "category": ["Boy"],
-      "collectionType": ["Summer Collection"],
-      "price": 3371,
-      "size": [{"clothSize": "M", "shoesSize": 7}],
-      "stock": 136,
-      "rating": 3.6,
-      "tags": "shirt,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "T-Shirt 13",
-      "brand": "Puma",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 2870,
-      "size": [{"clothSize": "M", "shoesSize": 8}],
-      "stock": 30,
-      "rating": 4.2,
-      "tags": "t-shirt,puma",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "T-Shirt 14",
-      "brand": "Gucci",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 4992,
-      "size": [{"clothSize": "S", "shoesSize": 9}],
-      "stock": 179,
-      "rating": 2.1,
-      "tags": "t-shirt,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Jeans 15",
-      "brand": "Puma",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 937,
-      "size": [{"clothSize": "XXL", "shoesSize": 6}],
-      "stock": 25,
-      "rating": 2.0,
-      "tags": "jeans,puma",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Hat 16",
-      "brand": "Nike",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 1417,
-      "size": [],
-      "stock": 102,
-      "rating": 4.8,
-      "tags": "hat,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Top 17",
-      "brand": "Levi's",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 1657,
-      "size": [{"clothSize": "S", "shoesSize": 9}],
-      "stock": 60,
-      "rating": 1.8,
-      "tags": "top,levi's",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Skirt 18",
-      "brand": "Levi's",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 991,
-      "size": [{"clothSize": "L", "shoesSize": 8}],
-      "stock": 11,
-      "rating": 2.5,
-      "tags": "skirt,levi's",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Skirt 19",
-      "brand": "Gucci",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 2295,
-      "size": [{"clothSize": "L", "shoesSize": 9}],
-      "stock": 173,
-      "rating": 3.5,
-      "tags": "skirt,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Shirt 20",
-      "brand": "Nike",
-      "category": ["Boy"],
-      "collectionType": ["Summer Collection"],
-      "price": 2773,
-      "size": [{"clothSize": "S", "shoesSize": 7}],
-      "stock": 178,
-      "rating": 4.1,
-      "tags": "shirt,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Leggings 21",
-      "brand": "Gucci",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 4960,
-      "size": [{"clothSize": "XL", "shoesSize": 6}],
-      "stock": 113,
-      "rating": 4.3,
-      "tags": "leggings,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Hat 22",
-      "brand": "Nike",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 3948,
-      "size": [],
-      "stock": 180,
-      "rating": 3.7,
-      "tags": "hat,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Jeans 23",
-      "brand": "Armani",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 2315,
-      "size": [{"clothSize": "XXL", "shoesSize": 6}],
-      "stock": 171,
-      "rating": 1.1,
-      "tags": "jeans,armani",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Blouse 24",
-      "brand": "Adidas",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 4145,
-      "size": [{"clothSize": "L", "shoesSize": 8}],
-      "stock": 110,
-      "rating": 3.3,
-      "tags": "blouse,adidas",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Scarf 25",
-      "brand": "Levi's",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 2567,
-      "size": [],
-      "stock": 91,
-      "rating": 1.6,
-      "tags": "scarf,levi's",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Cap 26",
-      "brand": "Gucci",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 4955,
-      "size": [],
-      "stock": 134,
-      "rating": 3.4,
-      "tags": "cap,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Hat 27",
-      "brand": "Ray-Ban",
-      "category": ["Accessories"],
-      "collectionType": ["Accessories Collection"],
-      "price": 1902,
-      "size": [],
-      "stock": 82,
-      "rating": 3.7,
-      "tags": "hat,ray-ban",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Shirt 28",
-      "brand": "Ray-Ban",
-      "category": ["Boy"],
-      "collectionType": ["Summer Collection"],
-      "price": 529,
-      "size": [{"clothSize": "XXL", "shoesSize": 6}],
-      "stock": 161,
-      "rating": 1.6,
-      "tags": "shirt,ray-ban",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "T-Shirt 29",
-      "brand": "Gucci",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 1886,
-      "size": [{"clothSize": "XXL", "shoesSize": 10}],
-      "stock": 178,
-      "rating": 4.0,
-      "tags": "t-shirt,gucci",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Blouse 30",
-      "brand": "Armani",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 1772,
-      "size": [{"clothSize": "XL", "shoesSize": 10}],
-      "stock": 109,
-      "rating": 2.4,
-      "tags": "blouse,armani",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "T-Shirt 31",
-      "brand": "H&M",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 3796,
-      "size": [{"clothSize": "S", "shoesSize": 10}],
-      "stock": 13,
-      "rating": 1.7,
-      "tags": "t-shirt,h&m",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Shirt 32",
-      "brand": "Levi's",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 2235,
-      "size": [{"clothSize": "XXL", "shoesSize": 9}],
-      "stock": 44,
-      "rating": 1.1,
-      "tags": "shirt,levi's",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Top 33",
-      "brand": "H&M",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 2551,
-      "size": [{"clothSize": "XXL", "shoesSize": 9}],
-      "stock": 134,
-      "rating": 4.0,
-      "tags": "top,h&m",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Jacket 34",
-      "brand": "Adidas",
-      "category": ["Men"],
-      "collectionType": ["Summer Collection"],
-      "price": 1884,
-      "size": [{"clothSize": "M", "shoesSize": 10}],
-      "stock": 139,
-      "rating": 1.8,
-      "tags": "jacket,adidas",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Dress 35",
-      "brand": "Adidas",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 2823,
-      "size": [{"clothSize": "M", "shoesSize": 6}],
-      "stock": 99,
-      "rating": 1.7,
-      "tags": "dress,adidas",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Leggings 36",
-      "brand": "Nike",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 4439,
-      "size": [{"clothSize": "L", "shoesSize": 10}],
-      "stock": 183,
-      "rating": 1.1,
-      "tags": "leggings,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Blouse 37",
-      "brand": "Puma",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 4971,
-      "size": [{"clothSize": "XXL", "shoesSize": 7}],
-      "stock": 120,
-      "rating": 3.6,
-      "tags": "blouse,puma",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Top 38",
-      "brand": "Nike",
-      "category": ["Girl"],
-      "collectionType": ["Glow Up Collection"],
-      "price": 3340,
-      "size": [{"clothSize": "S", "shoesSize": 6}],
-      "stock": 158,
-      "rating": 2.1,
-      "tags": "top,nike",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Skirt 39",
-      "brand": "Armani",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 719,
-      "size": [{"clothSize": "S", "shoesSize": 8}],
-      "stock": 71,
-      "rating": 3.1,
-      "tags": "skirt,armani",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    },
-    {
-      "name": "Blouse 40",
-      "brand": "Levi's",
-      "category": ["Women"],
-      "collectionType": ["Summer Collection"],
-      "price": 4260,
-      "size": [{"clothSize": "XL", "shoesSize": 6}],
-      "stock": 177,
-      "rating": 3.2,
-      "tags": "blouse,levi's",
-      "imageUrl": [
-        "https://placehold.co/400x500?text=400+x+500",
-        "https://placehold.co/400x500?text=400+x+500"
-      ]
-    }
+  {
+    "name": "Sneaker Max",
+    "brand": "Adidas",
+    "category": ["Footwear"],
+    "collectionType": ["Shoes Collection"],
+    "price": 3299,
+    "size": [
+      { "shoesSize": 8 }
+    ],
+    "stock": 45,
+    "rating": 4.3,
+    "tags": "sneaker,adidas",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Sneaker+Max"
+    ]
+  },
+  {
+    "name": "Classic Loafer",
+    "brand": "Hush Puppies",
+    "category": ["Footwear"],
+    "collectionType": ["Shoes Collection"],
+    "price": 2799,
+    "size": [
+      { "shoesSize": 9 }
+    ],
+    "stock": 30,
+    "rating": 4.0,
+    "tags": "loafer,formal",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Classic+Loafer"
+    ]
+  },
+  {
+    "name": "Running Pro",
+    "brand": "Nike",
+    "category": ["Footwear"],
+    "collectionType": ["Summer Collection"],
+    "price": 3899,
+    "size": [
+      { "shoesSize": 10 }
+    ],
+    "stock": 65,
+    "rating": 4.6,
+    "tags": "running,nike",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Running+Pro"
+    ]
+  },
+  {
+    "name": "Flip Flop Beach",
+    "brand": "Puma",
+    "category": ["Footwear"],
+    "collectionType": ["Summer Collection"],
+    "price": 999,
+    "size": [
+      { "shoesSize": 7 }
+    ],
+    "stock": 100,
+    "rating": 3.9,
+    "tags": "flipflop,puma,beach",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Flip+Flop+Beach"
+    ]
+  },
+  {
+    "name": "Bootmaster",
+    "brand": "Woodland",
+    "category": ["Footwear"],
+    "collectionType": ["Winter Collection"],
+    "price": 4599,
+    "size": [
+      { "shoesSize": 9 }
+    ],
+    "stock": 20,
+    "rating": 4.7,
+    "tags": "boots,winter",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Bootmaster"
+    ]
+  },
+  {
+    "name": "Formal Pro",
+    "brand": "Red Tape",
+    "category": ["Footwear"],
+    "collectionType": ["Shoes Collection"],
+    "price": 3199,
+    "size": [
+      { "shoesSize": 8 }
+    ],
+    "stock": 50,
+    "rating": 4.2,
+    "tags": "formal,office",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Formal+Pro"
+    ]
+  },
+  {
+    "name": "Slip On Relax",
+    "brand": "Bata",
+    "category": ["Footwear"],
+    "collectionType": ["Accessories Collection"],
+    "price": 1450,
+    "size": [
+      { "shoesSize": 6 }
+    ],
+    "stock": 75,
+    "rating": 3.8,
+    "tags": "slipon,casual",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Slip+On+Relax"
+    ]
+  },
+  {
+    "name": "Hiker Trail",
+    "brand": "Quechua",
+    "category": ["Footwear"],
+    "collectionType": ["Winter Collection"],
+    "price": 3999,
+    "size": [
+      { "shoesSize": 10 }
+    ],
+    "stock": 40,
+    "rating": 4.5,
+    "tags": "hiking,trail",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Hiker+Trail"
+    ]
+  },
+  {
+    "name": "Sandal Cool",
+    "brand": "Reebok",
+    "category": ["Footwear"],
+    "collectionType": ["Summer Collection"],
+    "price": 1299,
+    "size": [
+      { "shoesSize": 7 }
+    ],
+    "stock": 90,
+    "rating": 4.1,
+    "tags": "sandal,summer",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Sandal+Cool"
+    ]
+  },
+  {
+    "name": "Training Kick",
+    "brand": "Nike",
+    "category": ["Footwear"],
+    "collectionType": ["Shoes Collection"],
+    "price": 3499,
+    "size": [
+      { "shoesSize": 9 }
+    ],
+    "stock": 35,
+    "rating": 4.4,
+    "tags": "training,sport",
+    "imageUrl": [
+      "https://placehold.co/400x500?text=Training+Kick"
+    ]
+  }
 ]

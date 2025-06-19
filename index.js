@@ -48,7 +48,7 @@ function seedData() {
     console.log("Error seeding data.", error);
   }
 }
-//seedData();
+seedData();
 
 // ✅ Fetch all products
 async function readAllProducts() {
