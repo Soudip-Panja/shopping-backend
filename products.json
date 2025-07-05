@@ -1,162 +1,1121 @@
 [
   {
-    "name": "Sneaker Max",
-    "brand": "Adidas",
-    "category": ["Footwear"],
-    "collectionType": ["Shoes Collection"],
-    "price": 3299,
-    "size": [
-      { "shoesSize": 8 }
-    ],
-    "stock": 45,
-    "rating": 4.3,
-    "tags": "sneaker,adidas",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Sneaker+Max"
-    ]
-  },
-  {
-    "name": "Classic Loafer",
-    "brand": "Hush Puppies",
-    "category": ["Footwear"],
-    "collectionType": ["Shoes Collection"],
-    "price": 2799,
-    "size": [
-      { "shoesSize": 9 }
-    ],
-    "stock": 30,
-    "rating": 4.0,
-    "tags": "loafer,formal",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Classic+Loafer"
-    ]
-  },
-  {
-    "name": "Running Pro",
-    "brand": "Nike",
-    "category": ["Footwear"],
+    "name": "Rayon Men's Casual Shirt",
+    "brand": "Levis",
+    "category": ["Men"],
+    "description": "A comfortable casual shirt regular fit shirt.",
+    "SKU": "0001MS",
     "collectionType": ["Summer Collection"],
-    "price": 3899,
-    "size": [
-      { "shoesSize": 10 }
+    "price": 559,
+    "stock": 55,
+    "rating": 4.7,
+    "tags": [
+      "Holiday Shirt",
+      "Half Shirt",
+      "Shirt",
+      "Summer",
+      "Beach Shirt",
+      "Casual Shirt",
+      "Regular Fit"
     ],
-    "stock": 65,
-    "rating": 4.6,
-    "tags": "running,nike",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Running+Pro"
-    ]
+    "imageUrl": ["https://shorturl.at/sRBsl"]
   },
   {
-    "name": "Flip Flop Beach",
-    "brand": "Puma",
-    "category": ["Footwear"],
+    "name": "Cotton Half Sleeve Shirt",
+    "brand": "Peter England",
+    "category": ["Men"],
+    "description": "Soft cotton half sleeve shirt for casual outings.",
+    "SKU": "0002MS",
+    "collectionType": ["Summer Collection"],
+    "price": 499,
+    "stock": 42,
+    "rating": 4.5,
+    "tags": [
+      "Holiday Shirt",
+      "Half Shirt",
+      "Shirt",
+      "Summer",
+      "Casual Shirt",
+      "Regular Fit"
+    ],
+    "imageUrl": ["https://short-link.me/15FkH"]
+  },
+  {
+    "name": "Men's Graphic Half T-Shirt",
+    "brand": "Roadster",
+    "category": ["Men"],
+    "description": "Trendy half sleeve T-shirt with printed graphics.",
+    "SKU": "0003MS",
     "collectionType": ["Summer Collection"],
     "price": 999,
-    "size": [
-      { "shoesSize": 7 }
+    "stock": 60,
+    "rating": 4.3,
+    "tags": [
+      "Half T-shirt",
+      "T-shirt",
+      "Graphic T-Shirt",
+      "Regular Fit",
+      "Summer",
+      "Casual Wear"
     ],
-    "stock": 100,
-    "rating": 3.9,
-    "tags": "flipflop,puma,beach",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Flip+Flop+Beach"
-    ]
+    "imageUrl": ["https://shorturl.at/EiWs6"]
   },
   {
-    "name": "Bootmaster",
-    "brand": "Woodland",
-    "category": ["Footwear"],
-    "collectionType": ["Winter Collection"],
-    "price": 4599,
-    "size": [
-      { "shoesSize": 9 }
-    ],
-    "stock": 20,
-    "rating": 4.7,
-    "tags": "boots,winter",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Bootmaster"
-    ]
-  },
-  {
-    "name": "Formal Pro",
-    "brand": "Red Tape",
-    "category": ["Footwear"],
-    "collectionType": ["Shoes Collection"],
-    "price": 3199,
-    "size": [
-      { "shoesSize": 8 }
-    ],
-    "stock": 50,
-    "rating": 4.2,
-    "tags": "formal,office",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Formal+Pro"
-    ]
-  },
-  {
-    "name": "Slip On Relax",
-    "brand": "Bata",
-    "category": ["Footwear"],
-    "collectionType": ["Accessories Collection"],
-    "price": 1450,
-    "size": [
-      { "shoesSize": 6 }
-    ],
-    "stock": 75,
-    "rating": 3.8,
-    "tags": "slipon,casual",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Slip+On+Relax"
-    ]
-  },
-  {
-    "name": "Hiker Trail",
-    "brand": "Quechua",
-    "category": ["Footwear"],
-    "collectionType": ["Winter Collection"],
-    "price": 3999,
-    "size": [
-      { "shoesSize": 10 }
-    ],
-    "stock": 40,
-    "rating": 4.5,
-    "tags": "hiking,trail",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Hiker+Trail"
-    ]
-  },
-  {
-    "name": "Sandal Cool",
-    "brand": "Reebok",
-    "category": ["Footwear"],
+    "name": "Plain Men's Half T-Shirt",
+    "brand": "H&M",
+    "category": ["Men"],
+    "description": "Minimalistic solid color half sleeve T-shirt.",
+    "SKU": "0004MS",
     "collectionType": ["Summer Collection"],
-    "price": 1299,
-    "size": [
-      { "shoesSize": 7 }
+    "price": 749,
+    "stock": 72,
+    "rating": 3.6,
+    "tags": [
+      "Half T-shirt",
+      "T-shirt",
+      "Graphic T-Shirt",
+      "Regular Fit",
+      "Summer",
+      "Casual Wear"
     ],
-    "stock": 90,
-    "rating": 4.1,
-    "tags": "sandal,summer",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Sandal+Cool"
-    ]
+    "imageUrl": ["https://shorturl.at/gSBum"]
   },
   {
-    "name": "Training Kick",
+    "name": "Men's Half Cargo Shorts",
     "brand": "Nike",
-    "category": ["Footwear"],
-    "collectionType": ["Shoes Collection"],
-    "price": 3499,
-    "size": [
-      { "shoesSize": 9 }
+    "category": ["Men"],
+    "description": "Comfortable half shorts for running and casual wear with multiple pockets.",
+    "SKU": "0005MS",
+    "collectionType": ["Summer Collection"],
+    "price": 799,
+    "stock": 38,
+    "rating": 4.8,
+    "tags": ["Half Shorts", "Shorts", "Running Shorts", "Cargo", "Pants"],
+    "imageUrl": ["https://shorturl.at/RuKQZ"]
+  },
+  {
+    "name": "Casual Cotton Men's Half Shorts",
+    "brand": "Adidas",
+    "category": ["Men"],
+    "description": "Breathable cotton shorts perfect for hot days.",
+    "SKU": "0006MS",
+    "collectionType": ["Summer Collection"],
+    "price": 749,
+    "stock": 45,
+    "rating": 2.3,
+    "tags": ["Half Shorts", "Cotton Shorts", "Summer Shorts", "Casual Wear"],
+    "imageUrl": ["https://shorturl.at/BNOLd"]
+  },
+  {
+    "name": "Woolen Men's Full Sweater",
+    "brand": "Monte Carlo",
+    "category": ["Men"],
+    "description": "Warm and cozy full sleeve woolen sweater for winter.",
+    "SKU": "0007MW",
+    "collectionType": ["Winter Collection"],
+    "price": 1199,
+    "stock": 34,
+    "rating": 1.5,
+    "tags": ["Full Sweater", "Woolen", "Winter Wear", "Men Sweater"],
+    "imageUrl": ["https://shorturl.at/AWmyM"]
+  },
+  {
+    "name": "Men's Knitted Full Sleeve Sweater",
+    "brand": "Jack & Jones",
+    "category": ["Men"],
+    "description": "Knitted full sleeve sweater for stylish winter outings.",
+    "SKU": "0008MW",
+    "collectionType": ["Winter Collection"],
+    "price": 1959,
+    "stock": 29,
+    "rating": 4.9,
+    "tags": ["Full Sweater", "Knitted", "Winter Fashion", "Sweater", "Woolen"],
+    "imageUrl": ["https://shorturl.at/ZZ911"]
+  },
+  {
+    "name": "Cotton Full Sleeve Formal Shirt",
+    "brand": "Van Heusen",
+    "category": ["Men"],
+    "description": "Premium quality full sleeve shirt for office and events.",
+    "SKU": "0009MW",
+    "collectionType": ["Winter Collection"],
+    "price": 1899,
+    "stock": 50,
+    "rating": 3.9,
+    "tags": ["Full Shirt", "Formal Shirt", "Cotton Shirt", "Office Wear"],
+    "imageUrl": ["https://shorturl.at/6S0pI"]
+  },
+  {
+    "name": "Men's Slim Fit Full Shirt",
+    "brand": "Allen Solly",
+    "category": ["Men"],
+    "description": "Slim fit full sleeve shirt with clean lines and elegance.",
+    "SKU": "0010MW",
+    "collectionType": ["Winter Collection"],
+    "price": 749,
+    "stock": 58,
+    "rating": 2.4,
+    "tags": [
+      "Full Shirt",
+      "Slim Fit",
+      "Formal Wear",
+      "Winter Shirt",
+      "Cotton Shirt",
+      "Office Wear"
     ],
-    "stock": 35,
+    "imageUrl": ["https://shorturl.at/0XlBB"]
+  },
+  {
+    "name": "Men's Regular Fit Blue Jeans",
+    "brand": "Wrangler",
+    "category": ["Men"],
+    "description": "Durable regular fit jeans with comfortable stretch.",
+    "SKU": "0011MW",
+    "collectionType": ["Winter Collection"],
+    "price": 1399,
+    "stock": 40,
+    "rating": 3.7,
+    "tags": ["Jeans", "Denim", "Casual Wear", "Winter Bottoms", "Slim Fit"],
+    "imageUrl": ["https://shorturl.at/4RD1x"]
+  },
+  {
+    "name": "Men's Black Cargo Jeans",
+    "brand": "Pepe Jeans",
+    "category": ["Men"],
+    "description": "Classic slim-fit black jeans perfect for any occasion.",
+    "SKU": "0012MW",
+    "collectionType": ["Winter Collection"],
+    "price": 1449,
+    "stock": 37,
+    "rating": 4.7,
+    "tags": ["Jeans", "Slim Fit", "Black Denim", "Men's Fashion", "Cargo"],
+    "imageUrl": ["https://shorturl.at/wmGQG"]
+  },
+  {
+    "name": "Men's Cotton Kurta Pajama Set",
+    "brand": "Manyavar",
+    "category": ["Men"],
+    "description": "Traditional cotton kurta pajama perfect for festive and casual wear.",
+    "SKU": "0013MT",
+    "collectionType": ["Traditional Collection"],
+    "price": 1399,
+    "stock": 50,
+    "rating": 3.6,
+    "tags": [
+      "Kurta Pajama",
+      "Cotton Wear",
+      "Traditional",
+      "Men Ethnic",
+      "Summer Outfit"
+    ],
+    "imageUrl": ["https://shorturl.at/zF5Ez"]
+  },
+  {
+    "name": "Silk Blend Festive Kurta Pajama",
+    "brand": "Peter England",
+    "category": ["Men"],
+    "description": "Elegant silk blend kurta pajama set designed for weddings and parties.",
+    "SKU": "0014MT",
+    "collectionType": ["Traditional Collection"],
+    "price": 1899,
+    "stock": 38,
+    "rating": 4.7,
+    "tags": [
+      "Kurta Pajama",
+      "Silk Blend",
+      "Wedding Wear",
+      "Ethnic Set",
+      "Party Wear",
+      "Winter"
+    ],
+    "imageUrl": ["https://shorturl.at/YSrSm"]
+  },
+  {
+    "name": "Patterned Kurta Pajama Set",
+    "brand": "Raymond",
+    "category": ["Men"],
+    "description": "Breathable linen kurta pajama with subtle stripes, perfect for summer events.",
+    "SKU": "0015MT",
+    "collectionType": ["Traditional Collection"],
+    "price": 1599,
+    "stock": 42,
+    "rating": 4.0,
+    "tags": ["Kurta Pajama", "Patterned", "Printed", "Men Ethnic Wear"],
+    "imageUrl": ["https://shorturl.at/vTezo"]
+  },
+  {
+    "name": "Women's Denim High-Waist Shorts",
+    "brand": "ONLY",
+    "category": ["Women"],
+    "description": "Trendy high-waist denim shorts with frayed hem.",
+    "SKU": "0016WS",
+    "collectionType": ["Summer Collection"],
+    "price": 1099,
+    "stock": 40,
+    "rating": 1.6,
+    "tags": [
+      "Shorts",
+      "Womens Shorts",
+      "Denim Shorts",
+      "High-Waist",
+      "Women Fashion",
+      "Summer",
+      "Casual Wear",
+      "Breathable"
+    ],
+    "imageUrl": ["https://shorturl.at/kvGnX"]
+  },
+  {
+    "name": "Cotton Drawstring Casual Shorts",
+    "brand": "H&M",
+    "category": ["Women"],
+    "description": "Lightweight cotton shorts with drawstring waist for all-day comfort.",
+    "SKU": "0017WS",
+    "collectionType": ["Summer Collection"],
+    "price": 749,
+    "stock": 52,
+    "rating": 4.1,
+    "tags": [
+      "Shorts",
+      "Cotton Shorts",
+      "Drawstring",
+      "Women Casual",
+      "Summer Wear",
+      "Breathable",
+      "Casual Wear"
+    ],
+    "imageUrl": ["https://shorturl.at/FXIev"]
+  },
+  {
+    "name": "Women's Graphic Print T-Shirt",
+    "brand": "Zara",
+    "category": ["Women"],
+    "description": "Trendy cotton T-shirt with a bold graphic print for casual days.",
+    "SKU": "0018WS",
+    "collectionType": ["Summer Collection"],
+    "price": 849,
+    "stock": 62,
     "rating": 4.4,
-    "tags": "training,sport",
-    "imageUrl": [
-      "https://placehold.co/400x500?text=Training+Kick"
-    ]
+    "tags": [
+      "T-Shirt",
+      "Women T-Shirt",
+      "Graphic Print",
+      "Casual Wear",
+      "Summer Fashion"
+    ],
+    "imageUrl": ["https://short-link.me/15L3Z"]
+  },
+  {
+    "name": "Solid Round Neck T-Shirt",
+    "brand": "Zara",
+    "category": ["Women"],
+    "description": "Soft solid-color round neck T-shirt ideal for daily comfort.",
+    "SKU": "0019WS",
+    "collectionType": ["Summer Collection"],
+    "price": 699,
+    "stock": 47,
+    "rating": 3.8,
+    "tags": [
+      "T-Shirt",
+      "Women T-Shirt",
+      "Solid Color",
+      "Round Neck",
+      "Basic Wear",
+      "Summer"
+    ],
+    "imageUrl": ["https://shorturl.at/lu8hA"]
+  },
+  {
+    "name": "Women's Skinny Fit Jeans",
+    "brand": "Levis",
+    "category": ["Women"],
+    "description": "Classic blue skinny fit jeans with stretchable comfort.",
+    "SKU": "0020WW",
+    "collectionType": ["Winter Collection"],
+    "price": 1599,
+    "stock": 42,
+    "rating": 1.3,
+    "tags": [
+      "Women Jeans",
+      "Skinny Fit",
+      "Denim",
+      "Casual Wear",
+      "Stretchable"
+    ],
+    "imageUrl": ["https://shorturl.at/WxKoF"]
+  },
+  {
+    "name": "High-Waisted Jeans",
+    "brand": "H&M",
+    "category": ["Women"],
+    "description": "Trendy high-waisted mom jeans with a relaxed fit.",
+    "SKU": "0021WW",
+    "collectionType": ["Winter Collection"],
+    "price": 1799,
+    "stock": 38,
+    "rating": 3.7,
+    "tags": ["Women Jeans", "Mom Jeans", "High Waist", "Denim", "Casual Look"],
+    "imageUrl": ["https://shorturl.at/FWhEw"]
+  },
+  {
+    "name": "Women's Cotton Full Sleeve Shirt",
+    "brand": "Van Heusen",
+    "category": ["Women"],
+    "description": "Elegant cotton shirt with full sleeves and a formal touch.",
+    "SKU": "0022WW",
+    "collectionType": ["Winter Collection"],
+    "price": 1249,
+    "stock": 50,
+    "rating": 4.0,
+    "tags": [
+      "Full Shirt",
+      "Women Shirt",
+      "Cotton",
+      "Formal Wear",
+      "Office Wear"
+    ],
+    "imageUrl": ["https://shorturl.at/0kjNj"]
+  },
+  {
+    "name": "Slim Fit Striped Shirt",
+    "brand": "Marks",
+    "category": ["Women"],
+    "description": "Slim fit shirt with subtle stripes, ideal for business casuals.",
+    "SKU": "0023WW",
+    "collectionType": ["Winter Collection"],
+    "price": 1350,
+    "stock": 46,
+    "rating": 2.5,
+    "tags": [
+      "Women Shirt",
+      "Striped Shirt",
+      "Slim Fit",
+      "Business Casual",
+      "Full Sleeve"
+    ],
+    "imageUrl": ["https://shorturl.at/d0Y68"]
+  },
+  {
+    "name": "Knitted Crew Neck Sweater",
+    "brand": "Zara",
+    "category": ["Women"],
+    "description": "Soft and warm knitted sweater with a classic crew neck design.",
+    "SKU": "0024WW",
+    "collectionType": ["Winter Collection"],
+    "price": 1899,
+    "stock": 39,
+    "rating": 2.6,
+    "tags": [
+      "Sweater",
+      "Knitted",
+      "Women Winter Wear",
+      "Crew Neck",
+      "Full Sleeve"
+    ],
+    "imageUrl": ["https://short-link.me/15NOo"]
+  },
+  {
+    "name": "Wool Blend Turtleneck Sweater",
+    "brand": "ONLY",
+    "category": ["Women"],
+    "description": "Cozy wool-blend sweater with a stylish turtleneck fit.",
+    "SKU": "0025WW",
+    "collectionType": ["Winter Collection"],
+    "price": 2199,
+    "stock": 33,
+    "rating": 4.8,
+    "tags": [
+      "Sweater",
+      "Turtleneck",
+      "Wool Blend",
+      "Winter Collection",
+      "Women Fashion"
+    ],
+    "imageUrl": ["https://short-link.me/15NPm"]
+  },
+  {
+    "name": "Cotton Printed Churidar",
+    "brand": "Biba",
+    "category": ["Women"],
+    "description": "Elegant printed cotton churidar perfect for daily wear.",
+    "SKU": "0026WT",
+    "collectionType": ["Traditional Collection"],
+    "price": 1299,
+    "stock": 48,
+    "rating": 4.5,
+    "tags": [
+      "Churidar",
+      "Cotton Wear",
+      "Printed",
+      "Traditional Wear",
+      "Women Ethnic",
+      "Ethnic Wear",
+      "Summer",
+      "Salwar"
+    ],
+    "imageUrl": ["https://shorturl.at/LcoQh"]
+  },
+  {
+    "name": "Ankle Length Solid Churidar",
+    "brand": "Diva",
+    "category": ["Women"],
+    "description": "Solid ankle-length churidar made from stretchable fabric.",
+    "SKU": "0027WT",
+    "collectionType": ["Traditional Collection"],
+    "price": 699,
+    "stock": 36,
+    "rating": 3.2,
+    "tags": [
+      "Churidar",
+      "Cotton Wear",
+      "Printed",
+      "Traditional Wear",
+      "Women Ethnic",
+      "Ethnic Wear",
+      "Summer",
+      "Salwar"
+    ],
+    "imageUrl": ["https://shorturl.at/oB7hZ"]
+  },
+  {
+    "name": "Silk Zari Work Saree",
+    "brand": "Suta",
+    "category": ["Women"],
+    "description": "Elegant silk saree with traditional zari work, ideal for weddings and festive occasions.",
+    "SKU": "0028WT",
+    "collectionType": ["Traditional Collection"],
+    "price": 2499,
+    "stock": 27,
+    "rating": 4.9,
+    "tags": [
+      "Saree",
+      "Silk Saree",
+      "Zari Work",
+      "Ethnic Wear",
+      "Festive Wear",
+      "Wedding Saree"
+    ],
+    "imageUrl": ["https://short-link.me/15NRL"]
+  },
+  {
+    "name": "Cotton Printed Daily Wear Saree",
+    "brand": "FabIndia",
+    "category": ["Women"],
+    "description": "Lightweight printed cotton saree perfect for daily and office wear.",
+    "SKU": "0029WT",
+    "collectionType": ["Traditional Collection"],
+    "price": 1399,
+    "stock": 35,
+    "rating": 2.2,
+    "tags": [
+      "Saree",
+      "Cotton Saree",
+      "Printed",
+      "Daily Wear",
+      "Office Wear",
+      "Women Fashion"
+    ],
+    "imageUrl": ["https://shorturl.at/ZI2e9"]
+  },
+  {
+    "name": "Boys Cotton T-Shirt & Shorts Set",
+    "brand": "Max",
+    "category": ["Kids"],
+    "description": "Comfortable cotton T-shirt and shorts combo for daily wear.",
+    "SKU": "0030KBS",
+    "collectionType": ["Summer Collection"],
+    "price": 649,
+    "stock": 60,
+    "rating": 3.3,
+    "tags": ["Kids Wear", "Boys", "T-Shirt", "Shorts", "Summer Outfit"],
+    "imageUrl": ["https://shorturl.at/dkXbd"]
+  },
+  {
+    "name": "Boys Full Sleeve Winter Jacket",
+    "brand": "H&M Kids",
+    "category": ["Kids"],
+    "description": "Warm and stylish winter jacket for boys with front zip.",
+    "SKU": "0031KBW",
+    "collectionType": ["Winter Collection"],
+    "price": 1249,
+    "stock": 35,
+    "rating": 2.6,
+    "tags": [
+      "Boys",
+      "Kids Jacket",
+      "Winter Wear",
+      "Full Sleeve",
+      "Warm Jacket"
+    ],
+    "imageUrl": ["https://shorturl.at/0xcVC"]
+  },
+  {
+    "name": "Printed Cotton Kurta for Boys",
+    "brand": "FirstCry",
+    "category": ["Kids"],
+    "description": "Ethnic printed cotton kurta suitable for festivals and weddings.",
+    "SKU": "0032KBT",
+    "collectionType": ["Traditional Collection"],
+    "price": 799,
+    "stock": 42,
+    "rating": 4.1,
+    "tags": ["Boys", "Kurta", "Ethnic Wear", "Festive", "Kids Fashion"],
+    "imageUrl": ["https://shorturl.at/VCkgp"]
+  },
+  {
+    "name": "Girls Cotton Frock with Floral Print",
+    "brand": "Babyhug",
+    "category": ["Kids"],
+    "description": "Soft and breathable cotton frock with colorful floral prints.",
+    "SKU": "0033KGS",
+    "collectionType": ["Summer Collection"],
+    "price": 699,
+    "stock": 52,
+    "rating": 1.5,
+    "tags": ["Girls", "Frock", "Floral Print", "Summer Wear", "Kids Dress"],
+    "imageUrl": ["https://shorturl.at/rlm3R"]
+  },
+  {
+    "name": "Girls Full Sleeve Knit Sweater",
+    "brand": "Peppermint",
+    "category": ["Kids"],
+    "description": "Warm knit sweater for girls, perfect for winter days.",
+    "SKU": "0034KGW",
+    "collectionType": ["Winter Collection"],
+    "price": 899,
+    "stock": 44,
+    "rating": 2.7,
+    "tags": ["Girls", "Sweater", "Winter Wear", "Full Sleeve", "Knitwear"],
+    "imageUrl": ["https://shorturl.at/YYJBO"]
+  },
+  {
+    "name": "Girls Party Wear Gown",
+    "brand": "Mini Klub",
+    "category": ["Kids"],
+    "description": "Stylish party gown for girls with net flare and bow detail.",
+    "SKU": "0035KGT",
+    "collectionType": [],
+    "price": 1499,
+    "stock": 30,
+    "rating": 4.8,
+    "tags": ["Girls", "Party Wear", "Gown", "Kids Fashion"],
+    "imageUrl": ["https://shorturl.at/ZxVOo"]
+  },
+  {
+    "name": "Apple iPhone 14",
+    "brand": "Apple",
+    "category": ["Electronics"],
+    "description": "Powerful smartphone with A15 Bionic chip, dual camera system, and Super Retina XDR display.",
+    "SKU": "0036E",
+    "collectionType": [],
+    "price": 2899,
+    "stock": 25,
+    "rating": 4.8,
+    "tags": ["Smartphone", "iPhone", "Apple", "Mobile", "Electronics"],
+    "imageUrl": ["https://shorturl.at/qYLKG"]
+  },
+  {
+    "name": "Samsung Galaxy Note 20 Ultra",
+    "brand": "Samsung",
+    "category": ["Electronics"],
+    "description": "Premium Android smartphone with S Pen, 108MP camera, and AMOLED display.",
+    "SKU": "0037E",
+    "collectionType": [],
+    "price": 2599,
+    "stock": 18,
+    "rating": 4.1,
+    "tags": ["Smartphone", "Samsung", "Galaxy Note", "S Pen", "Electronics"],
+    "imageUrl": ["https://shorturl.at/jRtlK"]
+  },
+  {
+    "name": "ASUS ROG Strix G15 Gaming Laptop",
+    "brand": "ASUS",
+    "category": ["Electronics"],
+    "description": "High-performance gaming laptop with Ryzen 7 processor and RTX 3050 GPU.",
+    "SKU": "0038E",
+    "collectionType": [],
+    "price": 1959,
+    "stock": 10,
+    "rating": 3.8,
+    "tags": ["Laptop", "Gaming", "ROG", "ASUS", "Electronics"],
+    "imageUrl": ["https://shorturl.at/tcFwu"]
+  },
+  {
+    "name": "Apple MacBook Air M2",
+    "brand": "Apple",
+    "category": ["Electronics"],
+    "description": "Lightweight laptop with M2 chip, Retina display, and long battery life.",
+    "SKU": "0039E",
+    "collectionType": [],
+    "price": 1999,
+    "stock": 12,
+    "rating": 4.2,
+    "tags": ["Laptop", "Apple", "MacBook", "M2", "Electronics"],
+    "imageUrl": ["https://shorturl.at/2QfUP"]
+  },
+  {
+    "name": "Philips Mixer Grinder",
+    "brand": "Philips",
+    "category": ["Electronics", "Home"],
+    "description": "750W mixer grinder with 3 stainless steel jars, ideal for dry and wet grinding.",
+    "SKU": "0040E",
+    "collectionType": [],
+    "price": 1499,
+    "stock": 36,
+    "rating": 4.4,
+    "tags": [
+      "Mixer Grinder",
+      "Philips",
+      "Kitchen Appliance",
+      "Electronics",
+      "Grinder"
+    ],
+    "imageUrl": ["https://shorturl.at/8Aufb"]
+  },
+  {
+    "name": "Philips Air Fryer HD9252",
+    "brand": "Philips",
+    "category": ["Electronics", "Home"],
+    "description": "Healthy air fryer with Rapid Air technology for oil-free cooking and preset menus.",
+    "SKU": "0041E",
+    "collectionType": [],
+    "price": 1299,
+    "stock": 20,
+    "rating": 2.9,
+    "tags": [
+      "Air Fryer",
+      "Philips",
+      "Oil Free",
+      "Electronics",
+      "Kitchen Appliance"
+    ],
+    "imageUrl": ["https://short-link.me/11LxW"]
+  },
+  {
+    "name": "Airdopes 141",
+    "brand": "boAt",
+    "category": ["Electronics"],
+    "description": "Compact and powerful earbuds with high-quality sound and long battery life.",
+    "SKU": "0042E",
+    "collectionType": [],
+    "price": 1499,
+    "stock": 70,
+    "rating": 3.4,
+    "tags": ["Electronics", "Earbuds", "Bluetooth", "Wireless", "Audio"],
+    "imageUrl": ["https://shorturl.at/09mE3"]
+  },
+  {
+    "name": "Smart Fitness Band",
+    "brand": "Realme",
+    "category": ["Electronics"],
+    "description": "Track your steps, heart rate, sleep patterns and more with this waterproof smart band.",
+    "SKU": "0043E",
+    "collectionType": [],
+    "price": 1799,
+    "stock": 65,
+    "rating": 4.1,
+    "tags": [
+      "Electronics",
+      "Fitness Band",
+      "Smartwatch",
+      "Wearable",
+      "Health Tracker"
+    ],
+    "imageUrl": ["https://shorturl.at/qnhDf"]
+  },
+  {
+    "name": "Wireless Portable Speaker",
+    "brand": "JBL",
+    "category": ["Electronics"],
+    "description": "Portable 20Watt Bluetooth speaker with deep bass and long battery backup.",
+    "SKU": "0044E",
+    "collectionType": [],
+    "price": 2199,
+    "stock": 40,
+    "rating": 4.9,
+    "tags": [
+      "Electronics",
+      "Bluetooth Speaker",
+      "Portable Speaker",
+      "Wireless",
+      "Audio Gear"
+    ],
+    "imageUrl": ["https://shorturl.at/ColPL"]
+  },
+  {
+    "name": "USB Type-C Fast Charger",
+    "brand": "Samsung",
+    "category": ["Electronics"],
+    "description": "25W fast-charging adapter for Type-C enabled devices.",
+    "SKU": "0045E",
+    "collectionType": [],
+    "price": 1199,
+    "stock": 90,
+    "rating": 1.9,
+    "tags": [
+      "Electronics",
+      "Charger",
+      "Type-C",
+      "Fast Charging",
+      "Mobile Accessory"
+    ],
+    "imageUrl": ["https://shorturl.at/zNhLT"]
+  },
+  {
+    "name": "Wireless Optical Mouse",
+    "brand": "Logitech",
+    "category": ["Electronics"],
+    "description": "Ergonomic wireless mouse with 12-month battery life and high precision.",
+    "SKU": "0046E",
+    "collectionType": [],
+    "price": 899,
+    "stock": 80,
+    "rating": 3.3,
+    "tags": [
+      "Electronics",
+      "Mouse",
+      "Wireless",
+      "Computer Accessory",
+      "Ergonomic"
+    ],
+    "imageUrl": ["https://shorturl.at/g0Sax"]
+  },
+  {
+    "name": "Cotton Double Bedsheet with Pillow Covers",
+    "brand": "Spaces",
+    "category": ["Home"],
+    "description": "Premium cotton double bedsheet with two matching pillow covers.",
+    "SKU": "0047H",
+    "collectionType": [],
+    "price": 1349,
+    "stock": 55,
+    "rating": 1.9,
+    "tags": ["Home", "Bedsheet", "Cotton", "Double Bed", "Pillow Covers"],
+    "imageUrl": ["https://shorturl.at/lJzDE"]
+  },
+  {
+    "name": "LED Decorative Wall Lamp",
+    "brand": "Philips",
+    "category": ["Home", "Electronics"],
+    "description": "Modern LED wall lamp for ambient lighting in living rooms and bedrooms.",
+    "SKU": "0048H",
+    "collectionType": [],
+    "price": 999,
+    "stock": 38,
+    "rating": 4.8,
+    "tags": ["Home", "Lighting", "Wall Lamp", "Decor", "LED"],
+    "imageUrl": ["https://shorturl.at/L67UY"]
+  },
+  {
+    "name": "Plastic Storage Box",
+    "brand": "Cello",
+    "category": ["Home"],
+    "description": "Multi-purpose plastic organizer box set ideal for kitchen and wardrobes.",
+    "SKU": "0049H",
+    "collectionType": [],
+    "price": 749,
+    "stock": 68,
+    "rating": 3.1,
+    "tags": ["Home", "Organizer", "Plastic Box", "Storage", "Multi-purpose"],
+    "imageUrl": ["https://shorturl.at/pC8OD"]
+  },
+  {
+    "name": "Cotton Anti-Slip Bathroom Mat",
+    "brand": "D'Decor",
+    "category": ["Home"],
+    "description": "Super absorbent anti-slip bath mat made from soft cotton.",
+    "SKU": "0050H",
+    "collectionType": [],
+    "price": 499,
+    "stock": 72,
+    "rating": 2.6,
+    "tags": [
+      "Bathroom Mat",
+      "Home",
+      "Cotton Mat",
+      "Anti-Slip",
+      "Bath Essentials"
+    ],
+    "imageUrl": ["https://shorturl.at/5x7Ou"]
+  },
+  {
+    "name": "Wooden Foldable Laptop Table",
+    "brand": "Nilkamal",
+    "category": ["Home"],
+    "description": "Portable and durable wooden laptop table with foldable legs and cup holder.",
+    "SKU": "0051H",
+    "collectionType": [],
+    "price": 1149,
+    "stock": 48,
+    "rating": 4.4,
+    "tags": ["Laptop Table", "Foldable", "Wooden", "Home Office", "Furniture"],
+    "imageUrl": ["https://shorturl.at/DcNv8"]
+  },
+  {
+    "name": "Aviator Sunglasses",
+    "brand": "Ray-Ban",
+    "category": ["Accessories", "Men"],
+    "description": "Classic aviator sunglasses with UV protection.",
+    "SKU": "0052AM",
+    "collectionType": ["Accessories Collection", "Summer Collection"],
+    "price": 1399,
+    "stock": 20,
+    "rating": 4.6,
+    "tags": ["sunglasses", "uv", "aviator", "men", "rayban"],
+    "imageUrl": ["https://shorturl.at/xqIlk"]
+  },
+  {
+    "name": "Oversized Sunglasses",
+    "brand": "Fastrack",
+    "category": ["Accessories", "Women"],
+    "description": "Fashionable oversized sunglasses for women with gradient lenses.",
+    "SKU": "0053AF",
+    "collectionType": ["Summer Collection"],
+    "price": 1899,
+    "stock": 15,
+    "rating": 3.3,
+    "tags": ["sunglasses", "oversized", "women", "fastrack"],
+    "imageUrl": ["https://shorturl.at/J3XW4"]
+  },
+  {
+    "name": "Floppy Hat",
+    "brand": "H&M",
+    "category": ["Accessories", "Women"],
+    "description": "Stylish wide-brimmed floppy hat perfect for sunny days.",
+    "SKU": "0054AW",
+    "collectionType": ["Summer Collection", "Accessories Collection"],
+    "price": 1299,
+    "stock": 10,
+    "rating": 4.8,
+    "tags": ["hat", "floppy", "sunhat", "women", "hm", "h&m"],
+    "imageUrl": ["https://short-link.me/16wX6"]
+  },
+  {
+    "name": "Baseball Cap",
+    "brand": "Nike",
+    "category": ["Men", "Accessories"],
+    "description": "Adjustable Nike baseball cap with breathable fabric.",
+    "SKU": "0055AM",
+    "collectionType": [],
+    "price": 999,
+    "stock": 25,
+    "rating": 2.7,
+    "tags": ["cap", "baseball", "men", "nike"],
+    "imageUrl": ["https://shorturl.at/VZqzf"]
+  },
+  {
+    "name": "Chronograph Wrist Watch",
+    "brand": "Fossil",
+    "category": ["Accessories", "Men"],
+    "description": "Fossil men's chronograph watch with leather strap.",
+    "SKU": "0056AM",
+    "collectionType": ["Accessories Collection"],
+    "price": 1999,
+    "stock": 12,
+    "rating": 4.9,
+    "tags": ["watch", "wristwatch", "chronograph", "men", "fossil"],
+    "imageUrl": ["https://shorturl.at/PKkTp"]
+  },
+  {
+    "name": "Rose Gold Wrist Watch",
+    "brand": "Titan",
+    "category": ["Accessories", "Women"],
+    "description": "Elegant rose gold analog watch with metal strap for women.",
+    "SKU": "0057AW",
+    "collectionType": [],
+    "price": 1399,
+    "stock": 18,
+    "rating": 1.4,
+    "tags": ["watch", "wristwatch", "rose gold", "women", "titan"],
+    "imageUrl": ["https://shorturl.at/7dB4d"]
+  },
+  {
+    "name": "Men's Genuine Leather Wallet",
+    "brand": "WildHorn",
+    "category": ["Accessories", "Men"],
+    "description": "Compact bifold wallet made with genuine leather featuring multiple compartments.",
+    "SKU": "0058AM",
+    "collectionType": [],
+    "price": 899,
+    "stock": 30,
+    "rating": 3.7,
+    "tags": ["wallet", "leather", "bifold", "men", "accessories", "compact"],
+    "imageUrl": ["https://shorturl.at/jEUII"]
+  },
+  {
+    "name": "Women's Zipper Clutch Purse",
+    "brand": "Baggit",
+    "category": ["Accessories", "Women"],
+    "description": "Stylish synthetic leather purse with zipper closure and wristlet strap.",
+    "SKU": "0059AW",
+    "collectionType": ["Accessories Collection"],
+    "price": 1199,
+    "stock": 25,
+    "rating": 4.6,
+    "tags": [
+      "ladies purse",
+      "clutch",
+      "zipper",
+      "women",
+      "baggit",
+      "leather",
+      "fashion"
+    ],
+    "imageUrl": ["https://shorturl.at/NuV1H"]
+  },
+  {
+    "name": "Men's Casual Sneakers",
+    "brand": "Puma",
+    "category": ["Footwear", "Men"],
+    "description": "Comfortable everyday sneakers with cushioned sole and breathable mesh.",
+    "SKU": "0060FM",
+    "collectionType": ["Shoes Collection"],
+    "price": 1599,
+    "stock": 44,
+    "rating": 4.7,
+    "tags": ["Footwear", "Men", "Sneakers", "Casual Wear", "Shoes"],
+    "imageUrl": ["https://shorturl.at/QUpy5"]
+  },
+  {
+    "name": "Men's Formal Leather Shoes",
+    "brand": "Bata",
+    "category": ["Footwear", "Men"],
+    "description": "Classic black leather shoes perfect for office and formal occasions.",
+    "SKU": "0061FM",
+    "collectionType": [],
+    "price": 1199,
+    "stock": 32,
+    "rating": 3.6,
+    "tags": ["Footwear", "Men", "Formal", "Leather Shoes", "Office Wear"],
+    "imageUrl": ["https://shorturl.at/gUzF5"]
+  },
+  {
+    "name": "Women's Wedge Sandals",
+    "brand": "Catwalk",
+    "category": ["Footwear", "Women"],
+    "description": "Stylish wedge sandals with cushioned footbed and ankle strap.",
+    "SKU": "0062FW",
+    "collectionType": [],
+    "price": 1899,
+    "stock": 37,
+    "rating": 2.8,
+    "tags": ["Footwear", "Women", "Sandals", "Wedges", "Summer Wear"],
+    "imageUrl": ["https://shorturl.at/AYJn2"]
+  },
+  {
+    "name": "Women's Block Heel Boots",
+    "brand": "Metro",
+    "category": ["Footwear", "Women"],
+    "description": "Elegant block heel ankle boots perfect for winter outfits.",
+    "SKU": "0063FW",
+    "collectionType": ["Shoes Collection"],
+    "price": 1499,
+    "stock": 29,
+    "rating": 4.3,
+    "tags": ["Footwear", "Women", "Boots", "Heels", "Winter Fashion"],
+    "imageUrl": ["https://shorturl.at/vXtT7"]
+  },
+  {
+    "name": "Boys Velcro Sport Shoes",
+    "brand": "Crocs Kids",
+    "category": ["Footwear", "Kids"],
+    "description": "Lightweight sport shoes with velcro straps for easy wear and secure fit.",
+    "SKU": "0064FKB",
+    "collectionType": ["Shoes Collection"],
+    "price": 999,
+    "stock": 40,
+    "rating": 4.0,
+    "tags": ["Footwear", "Boys", "Kids Shoes", "Velcro", "Running Shoes"],
+    "imageUrl": ["https://shorturl.at/fktnx"]
+  },
+  {
+    "name": "Girls Glitter Ballerina Flats",
+    "brand": "Barbie",
+    "category": ["Footwear", "Kids"],
+    "description": "Shimmering ballerina flats with bow detail for parties and casual wear.",
+    "SKU": "0065FKG",
+    "collectionType": [],
+    "price": 699,
+    "stock": 35,
+    "rating": 3.4,
+    "tags": ["Footwear", "Girls", "Ballerina", "Kids Fashion", "Party Wear"],
+    "imageUrl": ["https://shorturl.at/Sc9hT"]
+  },
+  {
+    "name": "Matte Liquid Lipstick",
+    "brand": "Maybelline",
+    "category": ["Cosmetics", "Women"],
+    "description": "Highly pigmented matte lipstick with long-lasting formula and smooth application.",
+    "SKU": "0066CW",
+    "collectionType": ["Cosmetic Collection"],
+    "price": 499,
+    "stock": 70,
+    "rating": 4.5,
+    "tags": ["Lipstick", "Matte", "Cosmetics", "Makeup", "Long Lasting"],
+    "imageUrl": ["https://shorturl.at/yQGS7"]
+  },
+  {
+    "name": "Waterproof Eyeliner Pen",
+    "brand": "Lakme",
+    "category": ["Cosmetics", "Women"],
+    "description": "Smudge-proof and waterproof eyeliner with precision felt tip.",
+    "SKU": "0067CW",
+    "collectionType": [],
+    "price": 299,
+    "stock": 60,
+    "rating": 4.3,
+    "tags": [
+      "Eyeliner",
+      "Waterproof",
+      "Cosmetics",
+      "Smudge Proof",
+      "Eye Makeup"
+    ],
+    "imageUrl": ["https://shorturl.at/tL4Gy"]
+  },
+  {
+    "name": "BB Cream with SPF 30",
+    "brand": "Garnier",
+    "category": ["Cosmetics", "Women", "Men"],
+    "description": "All-in-one BB cream for instant glow, even tone and sun protection.",
+    "SKU": "0068CWM",
+    "collectionType": ["Summer Collection", "Cosmetic Collection"],
+    "price": 349,
+    "stock": 45,
+    "rating": 4.8,
+    "tags": ["BB Cream", "SPF", "Cosmetics", "Daily Use", "Skincare"],
+    "imageUrl": ["https://shorturl.at/Tk8QY"]
+  },
+  {
+    "name": "Compact Powder - Ivory Glow",
+    "brand": "Sugar Cosmetics",
+    "category": ["Cosmetics", "Women"],
+    "description": "Lightweight compact powder for shine-free, smooth matte finish.",
+    "SKU": "0069CW",
+    "collectionType": [],
+    "price": 399,
+    "stock": 50,
+    "rating": 2.4,
+    "tags": [
+      "Compact Powder",
+      "Matte Finish",
+      "Cosmetics",
+      "Face Makeup",
+      "Oil Control"
+    ],
+    "imageUrl": ["https://shorturl.at/HVMVp"]
+  },
+  {
+    "name": "Hydrating Face Primer",
+    "brand": "Colorbar",
+    "category": ["Cosmetics", "Women"],
+    "description": "Smooth base primer that hydrates skin and extends makeup wear.",
+    "SKU": "0070CW",
+    "collectionType": [],
+    "price": 599,
+    "stock": 38,
+    "rating": 1.6,
+    "tags": ["Primer", "Hydrating", "Makeup Base", "Cosmetics", "Face Prep"],
+    "imageUrl": ["https://shorturl.at/5CIcZ"]
   }
 ]

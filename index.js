@@ -35,12 +35,14 @@ function seedData() {
         name: productData.name,
         brand: productData.brand,
         category: productData.category,
+        description: productData.description,
+        SKU: productData.SKU,
+        collectionType: productData.collectionType,
         price: productData.price,
-        size: productData.size,
         stock: productData.stock,
         rating: productData.rating,
         tags: productData.tags,
-        imageUrl: productData.imageUrl,
+        imageUrl: productData.imageUrl
       });
       newProduct.save();
     }
