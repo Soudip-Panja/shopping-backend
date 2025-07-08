@@ -1,8 +1,8 @@
-const path = require("path");
+// const path = require("path");
 
 const express = require("express");
 const cors = require("cors");
-const fs = require("fs");
+// const fs = require("fs");
 require("dotenv").config();
 
 const app = express();
@@ -22,35 +22,35 @@ const Product = require("./model/product.model");
 initializeDatabse();
 
 // Read product data from JSON
-const jsonPath = path.resolve(__dirname, "products.json");
+// const jsonPath = path.resolve(__dirname, "products.json");
 
-const jsonData = fs.readFileSync(jsonPath, "utf-8");
-const productsData = JSON.parse(jsonData);
+// const jsonData = fs.readFileSync(jsonPath, "utf-8");
+// const productsData = JSON.parse(jsonData);
 
 // ✅ Seed data function (can be run once by uncommenting seedData())
-function seedData() {
-  try {
-    for (const productData of productsData) {
-      const newProduct = new Product({
-        name: productData.name,
-        brand: productData.brand,
-        category: productData.category,
-        description: productData.description,
-        SKU: productData.SKU,
-        collectionType: productData.collectionType,
-        price: productData.price,
-        stock: productData.stock,
-        rating: productData.rating,
-        tags: productData.tags,
-        imageUrl: productData.imageUrl
-      });
-      newProduct.save();
-    }
-  } catch (error) {
-    console.log("Error seeding data.", error);
-  }
-}
-seedData();
+// function seedData() {
+//   try {
+//     for (const productData of productsData) {
+//       const newProduct = new Product({
+//         name: productData.name,
+//         brand: productData.brand,
+//         category: productData.category,
+//         description: productData.description,
+//         SKU: productData.SKU,
+//         collectionType: productData.collectionType,
+//         price: productData.price,
+//         stock: productData.stock,
+//         rating: productData.rating,
+//         tags: productData.tags,
+//         imageUrl: productData.imageUrl
+//       });
+//       newProduct.save();
+//     }
+//   } catch (error) {
+//     console.log("Error seeding data.", error);
+//   }
+// }
+// seedData();
 
 // ✅ Fetch all products
 async function readAllProducts() {
