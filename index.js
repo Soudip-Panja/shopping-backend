@@ -1,97 +1,24 @@
-// const path = require("path");
-
 const express = require("express");
 const cors = require("cors");
-// const fs = require("fs");
 require("dotenv").config();
 
 const app = express();
+app.use(cors({ origin: "*", credentials: true }));
+app.use(express.json());
 
-// ✅ Corrected CORS configuration
-const corsOptions = {
-  origin: "*",
-  credentials: true,
-  optionsSuccessStatus: 200,
-};
-app.use(cors(corsOptions));
-
-// Database connection and models
+// ✅ Initialize DB
 const { initializeDatabse } = require("./db/db.connect");
-const Product = require("./model/product.model");
-
 initializeDatabse();
 
-// Read product data from JSON
-// const jsonPath = path.resolve(__dirname, "products.json");
+// ✅ Import Routes
+const productRoutes = require("./routes/products.routes");
+const wishlistRoutes = require("./routes/wishlist.routes");
 
-// const jsonData = fs.readFileSync(jsonPath, "utf-8");
-// const productsData = JSON.parse(jsonData);
+// ✅ Use Routes
+app.use("/products", productRoutes);
+app.use("/wishlist", wishlistRoutes);
 
-// ✅ Seed data function (can be run once by uncommenting seedData())
-// function seedData() {
-//   try {
-//     for (const productData of productsData) {
-//       const newProduct = new Product({
-//         name: productData.name,
-//         brand: productData.brand,
-//         category: productData.category,
-//         description: productData.description,
-//         SKU: productData.SKU,
-//         collectionType: productData.collectionType,
-//         price: productData.price,
-//         stock: productData.stock,
-//         rating: productData.rating,
-//         tags: productData.tags,
-//         imageUrl: productData.imageUrl
-//       });
-//       newProduct.save();
-//     }
-//   } catch (error) {
-//     console.log("Error seeding data.", error);
-//   }
-// }
-// seedData();
-
-// ✅ Fetch all products
-async function readAllProducts() {
-  try {
-    const allProducts = await Product.find();
-    console.log(allProducts);
-    return allProducts;
-  } catch (error) {
-    console.log("Error reading all products", error);
-    return [];
-  }
-}
-
-// ✅ GET all products
-app.get("/products", async (req, res) => {
-  try {
-    const products = await readAllProducts();
-    if (products.length !== 0) {
-      res.status(200).json({ products });
-    } else {
-      res.status(404).json({ error: "No products found." });
-    }
-  } catch (error) {
-    res.status(500).json({ error: "Failed to fetch products." });
-  }
-});
-
-// ✅ GET product by ID
-app.get("/products/:id", async (req, res) => {
-  try {
-    const product = await Product.findById(req.params.id);
-    if (!product) {
-      return res.status(404).json({ error: "Product not found." });
-    }
-    res.status(200).json({ product });
-  } catch (error) {
-    res.status(500).json({ error: "Failed to fetch the product." });
-  }
-});
-
-// ✅ Start server
+// ✅ Start Server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
