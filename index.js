@@ -13,10 +13,12 @@ initializeDatabse();
 // ✅ Import Routes
 const productRoutes = require("./routes/products.routes");
 const wishlistRoutes = require("./routes/wishlist.routes");
+const cartRoutes = require("./routes/cart.routes");
 
 // ✅ Use Routes
 app.use("/products", productRoutes);
 app.use("/wishlist", wishlistRoutes);
+app.use("/cart", cartRoutes);
 
 // ✅ Start Server
 const PORT = process.env.PORT || 3000;
